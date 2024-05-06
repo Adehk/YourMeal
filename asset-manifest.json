@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/YourMeal/static/css/main.a968b69e.css",
+    "main.js": "/YourMeal/static/js/main.71e97736.js",
+    "static/media/product-img-1.png": "/YourMeal/static/media/product-img-1.30c0779727e26b27a2a2.png",
+    "static/media/Nunito-Medium.ttf": "/YourMeal/static/media/Nunito-Medium.06740446a9f13288701b.ttf",
+    "static/media/Nunito-Regular.ttf": "/YourMeal/static/media/Nunito-Regular.9d7a6e03c6e3ed49c7ac.ttf",
+    "static/media/Nunito-SemiBold.ttf": "/YourMeal/static/media/Nunito-SemiBold.ae592fe018d712c287a2.ttf",
+    "static/media/Nunito-ExtraBold.ttf": "/YourMeal/static/media/Nunito-ExtraBold.7415babff1752bd4ea44.ttf",
+    "static/media/product-img-2.png": "/YourMeal/static/media/product-img-2.bc843f80f6b68a2d1336.png",
+    "static/media/product-img-6.png": "/YourMeal/static/media/product-img-6.ede5a85da836cb77d174.png",
+    "static/media/product-img-5.png": "/YourMeal/static/media/product-img-5.76058039430ef0d97609.png",
+    "static/media/product-img-3.png": "/YourMeal/static/media/product-img-3.edd2003250f287a1c0ee.png",
+    "static/media/product-img-4.png": "/YourMeal/static/media/product-img-4.68fa11d69ca12aa2d38e.png",
+    "static/media/burger.svg": "/YourMeal/static/media/burger.5ef18b444e57f70d1df6cf3b53a66cc8.svg",
+    "static/media/pizza.svg": "/YourMeal/static/media/pizza.9355aa36b482166c38e2f18d5536d6bc.svg",
+    "static/media/desserts.svg": "/YourMeal/static/media/desserts.6ba0ba74d801eedfeff754b9bb4ee756.svg",
+    "static/media/hotdogs.svg": "/YourMeal/static/media/hotdogs.432e8a7305ee0d79bb3d3745bc503f8c.svg",
+    "static/media/shawarma.svg": "/YourMeal/static/media/shawarma.81f29ad864418a8002b30ac0ee6ac8d7.svg",
+    "static/media/snacks.svg": "/YourMeal/static/media/snacks.04a9d562a2690dd2e5df0fe471c281dd.svg",
+    "static/media/combo.svg": "/YourMeal/static/media/combo.9cdc368062b8508568693cd3b9122983.svg",
+    "static/media/souses.svg": "/YourMeal/static/media/souses.4a6e283d18e0865c3346c313bf31e52b.svg",
+    "static/media/burgers.svg": "/YourMeal/static/media/burgers.e53194164edb4348419db949a5168a6e.svg",
+    "static/media/wok.svg": "/YourMeal/static/media/wok.69f223d30dcdb79e3d715e031b6dde4f.svg",
+    "static/media/header-logo.svg": "/YourMeal/static/media/header-logo.146d82a975a7f363bcbb5c52ea422f2b.svg",
+    "static/media/footer-logo.svg": "/YourMeal/static/media/footer-logo.c57b409f9afbbd41295f5c200b99b796.svg",
+    "static/media/call.svg": "/YourMeal/static/media/call.e43f0932f3f93d8fc13734baeca997e2.svg",
+    "index.html": "/YourMeal/index.html",
+    "main.a968b69e.css.map": "/YourMeal/static/css/main.a968b69e.css.map",
+    "main.71e97736.js.map": "/YourMeal/static/js/main.71e97736.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a968b69e.css",
+    "static/js/main.71e97736.js"
+  ]
+}
