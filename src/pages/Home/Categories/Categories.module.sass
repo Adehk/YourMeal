@@ -1,0 +1,54 @@
+.categories 
+  margin: 30px 0 30px 10px
+  overflow: hidden 
+  &__swiper
+    @media (min-width: 768px)
+      max-width: 905px
+      margin-left: 65px
+      overflow: visible
+    @media (min-width: 1024px)
+      max-width: 1230px
+      margin-left: 32px
+    @media (min-width: 1440px)
+      max-width: 1245px
+      margin-left: 0
+  @media (min-width: 768px)
+    margin: 35px auto
+  @media (min-width: 1024px)
+    margin: 40px auto
+  @media (min-width: 1440px)
+    max-width: 1250px
+  
+.category 
+  background-color: var(--white)
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 8px
+  padding: 8px
+  border-radius: 50px
+  border: 1px solid var(--white)
+  transition: all 0.3s ease-out
+  cursor: pointer
+  width: fit-content
+  @media (min-width: 1024px)
+    padding: 8px 14px
+  &:hover 
+    border: 1px solid var(--bright-orange)
+  &__text
+    font-size : 12px 
+    font-weight : var(--regular-fw)
+    white-space: nowrap
+    @media (min-width: 1024px)
+      font-size: 16px 
+
+.active 
+  background-color: var(--yellowish-orange)
+  border: 1px solid var(--yellowish-orange)
+
+.active:hover
+  border: 1px solid var(--yellowish-orange)
+
+.active .category__text 
+  font-weight: var(--medium-fw)
+  

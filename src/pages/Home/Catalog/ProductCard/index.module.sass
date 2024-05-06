@@ -1,0 +1,58 @@
+.product
+  background-color: var(--white)
+  border-radius: 12px
+  padding: 4px
+  @media (min-width: 1024px)
+    border-radius: 18px
+    padding: 12px
+  &__img
+    width: 100%
+    border-radius: 8px
+    margin-bottom: 10px
+    cursor: pointer
+    @media (min-width: 1024px)
+      border-radius: 12px
+      margin-bottom: 16px
+  &__price
+    font-weight: var(--semibold-fw)
+    line-height: 100%
+    margin-bottom: 4px
+    @media (min-width: 1024px)
+      font-size: 24px
+      margin-bottom: 8px
+  &__name
+    font-size: 12px
+    line-height: 130%
+    margin-bottom: 16px
+    @media (min-width: 1024px)
+      font-size: 16px
+      margin-bottom: 30px
+  &__weight
+    color: var(--nobel)
+    font-size: 12px
+    font-weight: var(--semibold-fw)
+    line-height: 130%
+    margin-bottom: 7px
+    @media (min-width: 1024px)
+      font-size: 16px
+      margin-bottom: 8px
+  &__add_to_cart_btn
+    background-color: var(--porcelain)
+    border-radius: 8px
+    border: none
+    padding: 11px
+    width: 100%
+    font-size: 12px
+    line-height: 100%
+    cursor: pointer
+    transition: all 0.3s ease-out
+    @media (min-width: 1024px)
+      border-radius: 12px
+      padding: 12px
+      font-size: 16px
+    &:hover
+      background-color: var(--yellowish-orange)
+      color: var(--white)
+    &:active
+      background-color: var(--bright-orange)
+      color: var(--white)

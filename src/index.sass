@@ -1,0 +1,33 @@
+@import "./assets/variables/variables.sass"
+
+@import './assets/fonts/fonts.sass'
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: var(--ff)
+
+body 
+  background-color: var(--snow-drift)
+
+a
+  text-decoration: none
+  color: inherit
+
+ul, li
+  padding: 0
+  margin: 0
+  list-style-type: none
+
+.swiper-slide
+  width: fit-content !important
+
+.swiper-slide:last-child
+  padding-right: 10px
+  @media (min-width: 768px)
+    padding-right: 65px
+  @media (min-width: 1024px)
+    padding-right: 32px
+  @media (min-width: 1440px)
+    padding-right: 0

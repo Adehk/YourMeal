@@ -1,0 +1,64 @@
+.hero 
+  background-color: var(--yellowish-orange)
+  color: var(--white)
+  padding: 0 10px
+  height: 385px
+  clip-path: ellipse(95% 70% at 50% 30%)
+  @media (min-width: 768px)
+    padding: 0
+    height: 275px
+    clip-path: ellipse(70% 70% at 50% 30%)
+  @media (min-width: 1024px)
+    height: 390px
+    clip-path: ellipse(65% 70% at 50% 30%)
+  @media (min-width: 1440px)
+    clip-path: ellipse(56% 70% at 50% 30%)
+  &__content
+    @media (min-width: 768px)
+      display: flex
+      gap: 10px
+      max-width: 565px
+      margin: 0 auto
+    @media (min-width: 1024px)
+      gap: 0
+      max-width: 765px
+    @media (min-width: 1440px)
+      gap: 20px
+      max-width: 785px
+  &__title
+    font-size: 30px
+    font-weight: var(--extrabold-fw)
+    line-height: 120%
+    text-align: center
+    margin-bottom: 16px
+    @media (min-width: 768px)
+      font-size: 36px
+      text-align: left
+      margin-top: 27px
+      margin-bottom: 26px
+    @media (min-width: 1024px)
+      font-size: 50px
+      margin-top: 45px
+      margin-bottom: 50px
+    span 
+      color: var(--bright-orange)
+  &__paragraph
+    font-size: 12px
+    font-weight: var(--semibold-fw)
+    text-align: center
+    margin-bottom: 20px
+    @media (min-width: 768px)
+      text-align: left
+      margin-bottom: 0
+    @media (min-width: 1024px)
+      font-size: 16px
+  &__img
+    text-align: center
+    @media (min-width: 768px)
+      order: -1
+    img 
+      width: 227px 
+      height: 229px 
+      @media (min-width: 1024px)
+        width: 326px 
+        height: 326px 

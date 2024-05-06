@@ -1,0 +1,27 @@
+.footer
+  background: var(--white)
+  &__content
+    padding: 24px 10px
+    @media (min-width: 768px)
+      padding: 40px 65px 26px
+    @media (min-width: 1024px)
+      padding: 50px 32px 40px
+    @media (min-width: 1440px)
+      max-width: 1290px
+      margin: 0 auto
+      padding: 50px 0 40px
+  &__info
+    @media (min-width: 1024px)
+      display: flex
+      justify-content: space-between
+  &__cta
+    display: flex
+    flex-direction: column
+    gap: 24px
+    @media (min-width: 768px)
+      flex-direction: row
+      gap: 180px
+    @media (min-width: 1024px)
+      gap: 50px
+    @media (min-width: 1440px)
+      gap: 126px

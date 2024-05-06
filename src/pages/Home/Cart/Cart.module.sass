@@ -1,0 +1,37 @@
+.cart
+  margin: 0 10px
+  @media (min-width: 768px)
+    margin: 0 65px
+  @media (min-width: 1024px)
+    max-width: 100%
+    margin: 72px 0 0
+  &__wrapper
+    background-color: var(--white)
+    padding: 16px 10px
+    border-radius: 12px
+    cursor: pointer
+    max-width: 300px
+    @media (min-width: 1024px)
+      padding: 24px 16px
+      border-radius: 18px
+      max-width: 100%
+  &__content
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__title
+    font-size: 16px
+    font-weight: var(--semibold-fw)
+    line-height: 100%
+    @media (min-width: 1024px)
+      font-size: 24px
+  &__quantity
+    background-color: var(--porcelain)
+    border-radius: 6px
+    font-size: 10px
+    line-height: 14px
+    padding: 1px 13px
+    @media (min-width: 1024px)
+      font-size: 12px
+      line-height: 16px
+      padding: 2px 16px

@@ -1,0 +1,30 @@
+.catalog
+  margin: 30px 10px 80px
+  @media (min-width: 768px)
+    margin: 30px 65px 80px
+  @media (min-width: 1024px)
+    margin: 0
+  &__title
+    font-size: 28px
+    font-weight: var(--semibold-fw)
+    line-height: 120%
+    margin-bottom: 16px
+    @media (min-width: 768px)
+      margin-bottom: 20px
+    @media (min-width: 1024px)
+      font-size: 40px
+      margin-bottom: 24px
+  &__product_cards
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    gap: 10px
+    @media (min-width: 480px)
+      grid-template-columns: repeat(auto-fit, minmax(145px, 2fr))
+    @media (min-width: 768px)
+      grid-template-columns: repeat(4, 1fr)
+      gap: 20px
+    @media (min-width: 1024px)
+      grid-template-columns: repeat(2, 1fr)
+      gap: 30px
+    @media (min-width: 1440px)
+      grid-template-columns: repeat(3, 1fr)
